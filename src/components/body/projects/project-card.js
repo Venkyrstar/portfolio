@@ -6,7 +6,9 @@ function ProjectCard({project}) {
     <div className='project-card'>
       <div className='project-info'>
         <label className='project-title'>{project.title}</label>
-        <p>{project.description}</p>
+        <div className='project-desc'>
+          <p>{project.description}</p>
+        </div>
       </div>
       <div className='project-tags'>
         {project.tags.map((tag) => {
