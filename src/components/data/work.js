@@ -1,5 +1,18 @@
 export const WorkData = [
     {
+        company: "Autodesk",
+        companyLogo: require('../../assets/icons/autodesk_logo.png'),
+        details: [
+            {
+                designation: "Intern, Software Developer",
+                dateJoining: "June 2022",
+                dateEnd: "September 2022",
+                description: "Modelled authenticated APIs to save and retrieve data using serverless framework, Typescript, MongoDB, and AWS Cloud services achieving 2x performance on query time.Crafted a log monitoring system by formatting the logs into JSON format providing better platform for issue analysis for 6 teams.Created queries for Datadog monitors to auto-report issues reducing the production issues by 20%.",
+                tags: ["AWS","Serverless","Typescript","MongoDB","Snowflake","Datadog"]
+            }
+        ]
+    },
+    {
         company: "Oracle Financial Services Software",
         companyLogo: require('../../assets/icons/oracle.png'),
         details: [

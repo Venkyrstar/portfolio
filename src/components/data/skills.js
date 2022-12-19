@@ -13,10 +13,6 @@ export const SkillsData = [
             {
                 name: "JavaScript",
                 icon: <i class="devicon-javascript-plain colored"></i>
-            },
-            {
-                name: "ReactJS",
-                icon: <i class="devicon-react-original colored"></i>
             }
         ]
     },
@@ -33,6 +29,16 @@ export const SkillsData = [
 
             },
             {
+                name: "TypeScript",
+                icon: <i class="devicon-typescript-plain colored"></i>
+              
+            }
+        ]
+    },
+    {
+        type: "Databases",
+        list:[
+            {
                 name: "Oracle",
                 icon: <i class="devicon-oracle-original colored"></i>
 
@@ -41,6 +47,16 @@ export const SkillsData = [
                 name: "MySQL",
                 icon: <i class="devicon-mysql-plain colored"></i>
 
+            },
+            {
+                name: "MongoDB",
+                icon: <i class="devicon-mongodb-plain colored"></i>
+              
+            },
+            {
+                name: "PostgreSQL",
+                icon: <i class="devicon-postgresql-plain colored"></i>
+              
             }
         ]
     },
@@ -67,6 +83,18 @@ export const SkillsData = [
             {
                 name: "Linux",
                 icon: <i class="devicon-linux-plain colored"></i>
+            },
+            {
+                name: "Flutter",
+                icon: <i class="devicon-flutter-plain colored"></i>
+            },
+            {
+                name: "ReactJS",
+                icon: <i class="devicon-react-original colored"></i>
+            },
+            {
+                name: "AWS",
+                icon: <i class="devicon-amazonwebservices-original colored"></i>
             }
         ]
     }

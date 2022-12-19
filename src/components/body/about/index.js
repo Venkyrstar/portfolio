@@ -9,10 +9,10 @@ function About() {
         <div className='about-info'>
             Hey There , I am 
             <br /> <span className='info-name'>Venkatesh</span>
-            <br /> I am a graduate student at UCI.
+            <br /> I am a Computer Science graduate student at UCI.
         </div>
         <div className='about-photo'>
-            <img src={require('../../../assets/about.png')} className='picture' />
+            <img src={require('../../../assets/about.jpg')} className='picture' />
         </div>
       </div>
       <SocialContact />
